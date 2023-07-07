@@ -1,0 +1,297 @@
+@media screen and (max-width:840px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    /* navbar */
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    #navbar .logo {
+        position: relative;
+        bottom: 13px;
+    }
+
+    #navbar .logo a {
+        font-size: 35px;
+        padding: 0px 3rem;
+        transform: rotate(353deg);
+    }
+
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    /* section1 */
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    #section1 {
+        top: 4rem;
+    }
+
+    #section1 .section1-container {
+        padding-left: 3rem;
+    }
+
+    #section1 .section1-right {
+        padding-right: 3rem;
+    }
+
+    #section1 .section1-container .heading {
+        margin: 8px 0px;
+        font-size: 35px;
+    }
+
+    #section1 .section1-container .para {
+        width: 100%;
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 400;
+    }
+
+    #section1 .section1-right img {
+        width: 20rem;
+        height: auto;
+    }
+
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    /* section2 */
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    #section2 {
+        bottom: 1rem;
+        padding: 3.5rem 0rem;
+    }
+
+    #section2 .container {
+        padding: 0px 0rem;
+    }
+
+    #section2 .space p {
+        padding: 0rem 0rem;
+    }
+
+    #section2 .wrapper {
+        margin: 0px 1rem;
+        padding: 0;
+    }
+
+    #section2 .img img {
+        width: 65px;
+    }
+
+    #section2 .special img {
+        width: 65px;
+    }
+
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    /* section3 */
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    #section3 {
+        height: 30rem;
+    }
+
+    #section3 .right {
+        padding: 12px 0px;
+    }
+
+    #section3 .right .wrapper {
+        margin: 0px 25px;
+    }
+
+    #section3 .right .space h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    #section3 .right .space p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    #section3 .right .space button {
+        font-size: 15px;
+    }
+
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    /* section4 */
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    #section4 .wrapper {
+        margin: 3rem 0rem;
+    }
+
+    #section4 .wrapper .left .img img {
+        width: 14rem;
+        height: 20rem;
+    }
+
+    #section4 .wrapper .left .profile {
+        right: 3rem;
+        padding: 10px 2rem;
+    }
+
+    #section4 .right .inner {
+        margin: 0px 3rem;
+    }
+
+    #section4 .right .inner h2 {
+        font-size: 40px;
+    }
+
+    #section4 .right .inner p {
+        font-size: 15px;
+    }
+
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    /* section6 */
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    #section6 .wrapper {
+        margin: 4rem 1rem;
+    }
+
+    #section6 .wrapper .container {
+        margin: 0rem 1rem;
+        padding: 0;
+    }
+
+    #section6 .wrapper .container .img {
+        margin-bottom: 30px;
+    }
+
+    #section6 .wrapper .container .img img {
+        width: 10rem;
+        height: auto;
+    }
+
+    #section6 .wrapper .container .inner-container h3 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    #section6 .wrapper .container .inner-container p {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    #section6 .wrapper .middle-container {
+        margin: 0px 1rem;
+    }
+
+    #section6 .wrapper .middle-container .img {
+        margin-top: 30px;
+    }
+
+    #section6 .wrapper .middle-container .img img {
+        width: 10rem;
+    }
+
+    #section6 .wrapper .middle-container .inner-container h3 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    #section6 .wrapper .middle-container .inner-container p {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    /* section7 */
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    .section7 {
+        height: 30rem;
+    }
+
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    /* section8 */
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    #section8 .wrapper {
+        margin: 2rem 2rem;
+    }
+
+    #section8 .wrapper .upper h3 {
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+
+    #section8 .wrapper .upper p {
+        margin: 0px 4rem;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    #section8 .wrapper .lower .above {
+        margin-bottom: 30px;
+    }
+
+    #section8 .wrapper .lower img {
+        width: 12rem;
+        height: 12rem;
+        margin: 0px 15px;
+    }
+
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    /* section9 */
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    #section9 {
+        position: static;
+    }
+
+    #section9 .same {
+        height: 100%;
+    }
+
+    #section9 .upper {
+        display: none;
+    }
+
+    #section9 .middle {
+        display: none;
+    }
+
+    #section9 .lower {
+        flex-wrap: wrap;
+        top: 0;
+        background-color: #7fd687;
+        position: static;
+    }
+
+    #section9 .lower .card {
+        width: 15rem;
+        padding: 2rem 0rem;
+        margin: 2rem 2rem;
+    }
+
+    #section9 .lower .card h3 {
+        font-size: 2rem;
+        margin-bottom: 25px;
+    }
+
+    #section9 .lower .card p {
+        font-size: 20px;
+    }
+
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    /* section10 */
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    #section10 .wrapper {
+        margin: 2rem 2rem;
+    }
+
+    #section10 .wrapper .logo {
+        margin-bottom: 20px;
+    }
+
+    #section10 .wrapper .logo img {
+        width: 6rem;
+    }
+
+    #section10 .wrapper .social {
+        margin-bottom: 25px;
+    }
+
+    #section10 .wrapper .social .icon {
+        margin: 0rem 10px;
+        font-size: 30px;
+        padding: 8px;
+    }
+
+    #section10 .wrapper .note p {
+        font-size: 16px;
+        text-align: center;
+    }
+}

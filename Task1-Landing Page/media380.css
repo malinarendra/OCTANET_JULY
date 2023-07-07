@@ -1,0 +1,12 @@
+@media screen and (max-width:380px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    /* section1 */
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    #section1 .section1-container .heading {
+        font-size: 30px;
+    }
+}

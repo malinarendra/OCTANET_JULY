@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@500&display=swap');
+
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* variable declaration */
+:root {
+    --back-color: #2d2d4a;
+    --second-color: #01ac46;
+    --text-color: #2c2747;
+}
+
+/* body */
+body {
+    height: 100%;
+    max-width: 100%;
+    background-color: var(--back-color);
+    color: var(--text-color);
+    font-family: "Roboto";
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* navbar */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--back-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+    border-bottom: 1px solid #ffffff0a;
+}
+
+#navbar .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 15px;
+}
+
+#navbar .logo a {
+    text-decoration: none;
+    color: var(--second-color);
+    font-size: 3rem;
+    padding: 0px 6rem;
+    font-family: 'Pacifico', cursive;
+    transform: rotate(355deg);
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* section1 */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+#section1 {
+    background-image: url("./images/home_back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto;
+    box-sizing: border-box;
+    position: relative;
+    top: 5rem;
+    padding: 3rem 0rem;
+}
+
+#section1 .section1-container {
+    padding-left: 6rem;
+    color: var(--text-color);
+}
+
+#section1 .section1-right {
+    padding-right: 6rem;
+    color: var(--text-color);
+}
+
+#section1 .section1-container .space {
+    margin: 18px 0px;
+}
+
+#section1 .section1-container .heading {
+    margin: 8px 0px;
+    font-size: 4rem;
+}
+
+#section1 .section1-container p .bold {
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+#section1 .section1-container .para {
+    width: 50%;
+    font-size: 20px;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+#section1 .section1-right img {
+    width: 30rem;
+    height: auto;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* section2 */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+#section2 {
+    position: relative;
+    bottom: 2rem;
+    padding: 4rem 0rem;
+}
+
+#section2 .wrapper {
+    padding: 0px 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section2 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 40px 0rem;
+    margin: 0px 2rem;
+    max-width: 20rem;
+}
+
+#section2 .space {
+    margin: 10px 0px;
+}
+
+#section2 .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section2 .img img {
+    padding: 0px 0px;
+    width: 5rem;
+    height: auto;
+}
+
+#section2 .special img {
+    width: 88px;
+}
+
+#section2 .space h4 {
+    font-size: 25px;
+    color: var(--second-color);
+    font-weight: bold;
+    text-align: center;
+    font-family: "Roboto";
+}
+
+#section2 .space p {
+    font-size: 15px;
+    font-style: italic;
+    color: var(--text-color);
+    text-align: center;
+    font-family: "Roboto";
+    line-height: 20px;
+    padding: 0rem 2rem;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* section3 */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+#section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7fd687;
+    height: 30rem;
+}
+
+#section3 .left {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section3 .left img {
+    width: 100%;
+    height: 100%;
+}
+
+#section3 .right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section3 .right .wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 4rem;
+}
+
+#section3 .right .space h1 {
+    font-size: 50px;
+    line-height: 4rem;
+    margin-bottom: 20px;
+}
+
+#section3 .right .space ol {
+    margin-left: 20px;
+}
+
+#section3 .right .space button {
+    font-size: 20px;
+    border: 2px solid var(--text-color);
+    border-radius: 20px;
+    padding: 8px 25px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 1rem;
+}
+
+#section3 .right .space button:hover {
+    background-color: var(--text-color);
+    color: #7fd687;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* section4 */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+#section4 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section4 .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 4rem;
+}
+
+#section4 .wrapper .left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#section4 .wrapper .left .img img {
+    width: 20rem;
+    height: 28rem;
+    z-index: 50;
+}
+
+#section4 .wrapper .left .profile {
+    background-color: #a9f08a;
+    position: absolute;
+    right: 8rem;
+    bottom: 2rem;
+    padding: 10px 3rem;
+    z-index: 50;
+}
+
+#section4 .wrapper .left .profile h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#section4 .wrapper .left .profile p {
+    font-size: 15px;
+}
+
+#section4 .wrapper .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section4 .right .inner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin: 0px 8rem;
+    position: relative;
+}
+
+#section4 .right .inner h2 {
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+#section4 .right .inner p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* section5 */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+.section5 .right {
+    width: 60%;
+}
+
+.section5 .left {
+    width: 40%;
+}
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* section6 */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+#section6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#section6 .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 4rem;
+    height: 100%;
+}
+
+#section6 .wrapper .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 2rem;
+    padding: 0px 3rem;
+}
+
+#section6 .wrapper .container .img {
+    margin-bottom: 3rem;
+}
+
+#section6 .wrapper .container .img img {
+    width: 15rem;
+    height: auto;
+}
+
+#section6 .wrapper .container .inner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section6 .wrapper .container .inner-container h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#section6 .wrapper .container .inner-container p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+#section6 .wrapper .middle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section6 .wrapper .middle-container .img {
+    margin-top: 3rem;
+}
+
+#section6 .wrapper .middle-container .img img {
+    width: 15rem;
+    height: auto;
+}
+
+#section6 .wrapper .middle-container .inner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section6 .wrapper .middle-container .inner-container h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#section6 .wrapper .middle-container .inner-container p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* section7 */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+.section7 .right .wrapper .space ol li {
+    margin: 10px 0px;
+}
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* section8 */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+#section8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#section8 .wrapper {
+    margin: 6rem 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section8 .wrapper .upper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+#section8 .wrapper .upper h3 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+#section8 .wrapper .upper p {
+    margin: 0px 15rem;
+    text-align: center;
+}
+
+#section8 .wrapper .lower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section8 .wrapper .lower .above {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#section8 .wrapper .lower img {
+    width: 23rem;
+    height: 27rem;
+    margin: 0px 10px;
+}
+
+#section8 .wrapper .lower .below {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* section9 */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+#section9 {
+    position: relative;
+    background-color: #2e2e4b;
+}
+
+#section9 .same {
+    height: 13rem;
+}
+
+#section9 .upper {
+    background-color: #71c780;
+}
+
+#section9 .middle {
+    background-color: #2c2d49;
+    height: 10rem;
+}
+
+#section9 .lower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 4rem;
+    width: 100%;
+}
+
+#section9 .lower .card {
+    background-color: white;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    margin: 0rem 1rem;
+}
+
+#section9 .lower .card .space span {
+    margin-bottom: 25px;
+    font-size: 3rem;
+    color: #73ca81;
+}
+
+#section9 .lower .card h3 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #73ca81;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* section10 */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+#section10 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ffffff0a;
+}
+
+#section10 .wrapper {
+    margin: 4rem 4rem;
+}
+
+#section10 .wrapper .space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section10 .wrapper .logo {
+    margin-bottom: 40px;
+}
+
+#section10 .wrapper .logo img {
+    width: 6rem;
+    height: auto;
+}
+
+#section10 .wrapper .social {
+    margin-bottom: 40px;
+}
+
+#section10 .wrapper .social .icon {
+    margin: 0rem 10px;
+    font-size: 30px;
+    color: white;
+    transition: 0.5s;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+}
+
+#section10 .wrapper .social .icon:hover {
+    background-color: white;
+    color: var(--text-color);
+}
+
+#section10 .wrapper .note p {
+    font-size: 20px;
+    color: white;
+}

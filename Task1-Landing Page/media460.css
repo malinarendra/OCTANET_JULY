@@ -1,0 +1,234 @@
+@media screen and (max-width:460px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    /* navbar */
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    #navbar .logo a {
+        padding: 0px 2rem;
+    }
+
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    /* section1 */
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    #section1 {
+        top: 4rem;
+        flex-direction: column;
+    }
+
+    #section1 .section1-container {
+        padding-left: 0rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 2rem;
+    }
+
+    #section1 .section1-right {
+        padding-right: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    /* section2 */
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    #section2 {
+        bottom: 0rem;
+        padding: 0rem 0rem;
+        position: static;
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+    }
+
+    #section2 .container {
+        padding: 3rem 0rem;
+        margin: 1rem 0rem;
+    }
+
+    #section2 .space p {
+        padding: 0rem 0rem;
+    }
+
+    #section2 .wrapper {
+        margin: 0px 0rem;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    /* section3 */
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    #section3 {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    #section3 .left {
+        width: 100%;
+    }
+
+    #section3 .right {
+        padding: 12px 0px;
+        width: 100%;
+    }
+
+    #section3 .right .wrapper {
+        margin: 10px 40px;
+    }
+
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    /* section4 */
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    #section4 {
+        height: 100%;
+    }
+
+    #section4 .wrapper {
+        margin: 3rem 0rem;
+        flex-direction: column;
+    }
+
+    #section4 .wrapper .left .img img {
+        width: 18rem;
+        height: 25rem;
+    }
+
+    #section4 .wrapper .left .profile {
+        right: -4rem;
+        padding: 10px 2rem;
+    }
+
+    #section4 .wrapper .right {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    #section4 .right .inner {
+        margin: 0px 2rem;
+    }
+
+    #section4 .right .inner h2 {
+        font-size: 40px;
+    }
+
+    #section4 .right .inner p {
+        font-size: 15px;
+    }
+
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    /* section6 */
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    #section6 .wrapper {
+        margin: 2rem 0rem;
+        flex-direction: column;
+    }
+
+    #section6 .wrapper .container {
+        margin: 2rem 3rem;
+        padding: 0;
+    }
+
+    #section6 .wrapper .container .img {
+        margin-bottom: 30px;
+    }
+
+    #section6 .wrapper .container .img img {
+        width: 16rem;
+        height: 15rem;
+    }
+
+    #section6 .wrapper .container .inner-container h3 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    #section6 .wrapper .container .inner-container p {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    #section6 .wrapper .middle-container {
+        margin: 2rem 3rem;
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+
+    #section6 .wrapper .middle-container .img {
+        margin-bottom: 30px;
+    }
+
+    #section6 .wrapper .middle-container .img img {
+        width: 16rem;
+        height: 15rem;
+    }
+
+    #section6 .wrapper .middle-container .inner-container h3 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    #section6 .wrapper .middle-container .inner-container p {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    /* section7 */
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    .section7 {
+        height: 100%;
+    }
+
+
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    /* section8 */
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+    #section8 .wrapper {
+        margin: 2rem 0rem;
+    }
+
+    #section8 .wrapper {
+        margin-bottom: 2rem;
+    }
+
+    #section8 .wrapper .upper h3 {
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+
+    #section8 .wrapper .upper p {
+        margin: 0px 1rem;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    #section8 .wrapper .lower .above {
+        margin-bottom: 0px;
+        flex-wrap: wrap;
+    }
+
+    #section8 .wrapper .lower .above img {
+        margin-bottom: 2rem;
+    }
+
+    #section8 .wrapper .lower .below {
+        margin-bottom: 0px;
+        flex-wrap: wrap;
+    }
+
+    #section8 .wrapper .lower .below img {
+        margin-bottom: 2rem;
+    }
+
+    #section8 .wrapper .lower img {
+        width: 17rem;
+        height: 17rem;
+        margin: 0px 15px;
+    }
+
+
+}
